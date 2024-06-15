@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\Validator;
 
 class ProductController extends Controller
 {
-    // This method will show products page
+    // This method will show products page s
     public function index() {
         $products = Product::orderBy('created_at','DESC')->get();
 
